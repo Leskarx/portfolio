@@ -64,6 +64,8 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Easy Rent",
+    github:"https://github.com/Leskarx/Easyrent",
+    live:"https://www.theease.rent/",
     description:
       "Easy Rent is a comprehensive platform for finding and managing rental properties, including PG accommodations and rooms.",
     tags: [ "Next.js", "MongoDB", "Tailwind", "Prisma"],
@@ -71,6 +73,8 @@ export const projectsData = [
   },
   {
     title: "rmtDev",
+    github:"https://github.com/Leskarx/Easyrent",
+    live:"https://www.theease.rent/",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
@@ -78,6 +82,8 @@ export const projectsData = [
   },
   {
     title: "Word Analytics",
+    github:"https://github.com/Leskarx/Easyrent",
+    live:"https://www.theease.rent/",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
