@@ -51,14 +51,15 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2024-2025",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "INdia",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2027 - present",
-  // },
+  {
+    title: "Software Development Intern",
+    location: "Online (India)",
+    description:
+      "Completed a two-month online internship at DeeGee Techlytics Solutions Pvt. Ltd. (01/06/2025 - 01/08/2025). Worked on requirement analysis, coordination, quality assurance, and feature enhancements for CRM software and the WhatsApp Cloud integration module. Performed end-to-end testing, reported bugs, and collaborated in an Agile environment.",
+    icon: React.createElement(FaReact),
+    date: "Jun 2025 - Aug 2025",
+  }
+  
 ] as const;
 
 export const projectsData = [
@@ -92,22 +93,20 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "java",
+  "Spring-Boot",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
+  "React.js",
   "Node.js",
-  "Git",
+  "Next.js",
+  // "Git",
   "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
   "c++",
-  "python",
-  "Express",
-  "java",
+  // "python",
+  "Express.js",
   "c",
   "Framer Motion",
 ] as const;
