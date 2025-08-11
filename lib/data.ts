@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaTrophy } from "react-icons/fa";
 // import { LuGraduationCap } from "react-icons/lu";
 import easyrent from "@/public/easyRent.png";
 import youtubeS from "@/public/youtubeS.png";
@@ -43,6 +44,15 @@ export const experiencesData = [
   //   icon: React.createElement(LuGraduationCap),
   //   date: "2019",
   // },
+  {
+    title: "Hackathon Finalist",
+    location: "IBM National Hackathon, Bangalore",
+    description:
+      "Participated as a finalist in the IBM National Hackathon, held from 6 August to 8 August 2025 in Bangalore. Collaborated with a team to develop an innovative solution, showcasing problem-solving, coding, and teamwork skills under a tight deadline.",
+    icon: React.createElement(FaTrophy),
+    date: "Aug 2025",
+  },
+  
   {
     title: "Software Development Intern",
     location: "DeeGee Techlytics Solutions Pvt. Ltd. (Online, India)",
