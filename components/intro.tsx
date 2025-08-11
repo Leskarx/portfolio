@@ -30,15 +30,16 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
-              src="/profile.jpg"
-              alt="profile picture"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-24 w-24 rounded-full object-cover shadow-xl"
-            />
+         <Image
+  src="/profile.jpg"
+  alt="profile picture"
+  width={256} // was 192
+  height={256} // was 192
+  quality={95}
+  priority={true}
+  className="h-32 w-32 rounded-full object-cover shadow-xl" // was h-24 w-24
+/>
+
           </motion.div>
 
           <motion.span
