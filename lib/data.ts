@@ -6,6 +6,7 @@ import { FaTrophy } from "react-icons/fa";
 import easyrent from "@/public/easyRent.png";
 import youtubeS from "@/public/youtubeS.png";
 import projectBhasha from "@/public/projectBhasha.png";
+import ByteClean from "@/public/ByteClean.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -85,15 +86,6 @@ export const projectsData = [
     imageUrl: easyrent,
   },
   {
-    title: "Project Bhasha",
-    github:"https://github.com/Leskarx/projectBhasha",
-    live:"https://github.com/Leskarx/projectBhasha",
-    description:
-      "An AI-powered website extracts text from images and PDFs, translating it into regional languages for accessibility.",
-    tags: ["NLP", "Python", "openCV", "Node.js", "Express"],
-    imageUrl: projectBhasha,
-  },
-  {
     title: "Youtube Summarizer",
     github:"https://github.com/Leskarx/YouTube-Video-Summarizer",
     live:"https://youtube-summarizer-leskar.vercel.app/",
@@ -102,6 +94,32 @@ export const projectsData = [
     tags: ["N8N", "React.js", "Node.js", "Tailwind", "Node.js"],
     imageUrl: youtubeS,
   },
+  {
+    title: "ByteClean",
+    github: "https://github.com/Leskarx/ByteClean-Backend",  // Add your GitHub repo link
+    live: "https://github.com/Leskarx/ByteClean-Backend",    // Add a live demo link if applicable
+    description: 
+      "ByteClean is an intelligent file management system that detects duplicates, categorizes files, and optimizes storage. It uses SHA-256 hashing, rule-based categorization (JSON/Drools), and automated organization for clutter-free storage.",
+    tags: [ 
+      "Java", 
+      "Spring Boot", 
+      "Apache Tika", 
+      "Drools(For Rule Engine)",
+      "SHA-256",
+      "File System API"
+    ],
+    imageUrl: ByteClean,  // Add your project image path
+},
+  {
+    title: "Project Bhasha",
+    github:"https://github.com/Leskarx/projectBhasha",
+    live:"https://github.com/Leskarx/projectBhasha",
+    description:
+      "An AI-powered website extracts text from images and PDFs, translating it into regional languages for accessibility.",
+    tags: ["NLP", "Python", "openCV", "Node.js", "Express"],
+    imageUrl: projectBhasha,
+  },
+ 
 ] as const;
 
 export const skillsData = [
