@@ -85,6 +85,22 @@ export const projectsData = [
     tags: [ "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: easyrent,
   },
+
+  {
+    title: "ByteClean",
+    github: "https://github.com/Leskarx/ByteClean-Backend",  // Add your GitHub repo link
+    live: "https://github.com/Leskarx/ByteClean-Backend",    // Add a live demo link if applicable
+    description: 
+      "ByteClean - Smart file organizer that finds duplicates, auto-categorizes files, and cleans up storage using SHA-256 hashing and customizable rules.",
+    tags: [ 
+      "Java", 
+      "Spring Boot",  
+      "Drools",
+      "SHA-256",
+      "File System API"
+    ],
+    imageUrl: ByteClean,  // Add your project image path
+},
   {
     title: "Youtube Summarizer",
     github:"https://github.com/Leskarx/YouTube-Video-Summarizer",
@@ -94,22 +110,6 @@ export const projectsData = [
     tags: ["N8N", "React.js", "Node.js", "Tailwind", "Node.js"],
     imageUrl: youtubeS,
   },
-  {
-    title: "ByteClean",
-    github: "https://github.com/Leskarx/ByteClean-Backend",  // Add your GitHub repo link
-    live: "https://github.com/Leskarx/ByteClean-Backend",    // Add a live demo link if applicable
-    description: 
-      "ByteClean is an intelligent file management system that detects duplicates, categorizes files, and optimizes storage. It uses SHA-256 hashing, rule-based categorization (JSON/Drools), and automated organization for clutter-free storage.",
-    tags: [ 
-      "Java", 
-      "Spring Boot", 
-      "Apache Tika", 
-      "Drools(For Rule Engine)",
-      "SHA-256",
-      "File System API"
-    ],
-    imageUrl: ByteClean,  // Add your project image path
-},
   {
     title: "Project Bhasha",
     github:"https://github.com/Leskarx/projectBhasha",
