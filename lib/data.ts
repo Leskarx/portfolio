@@ -44,21 +44,23 @@ export const experiencesData = [
   //   date: "2019",
   // },
   {
+    title: "Software Development Intern",
+    location: "DeeGee Techlytics Solutions Pvt. Ltd. (Online, India)",
+    description:
+      "I worked as a software development intern at DeeGee Techlytics Solutions Pvt. Ltd., contributing to requirement analysis, coordination, and quality assurance. I worked on CRM software and the WhatsApp Cloud integration module, performing feature enhancements, end-to-end testing, and bug reporting in an Agile environment.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2025 - Aug 2025",
+  },
+  
+  {
     title: "Full-Stack Developer",
     location: "Subspace",
     description:
       "I worked as a full-stack developer at Subspace, a startup that provides a platform for remote teams to collaborate and communicate. I worked on the frontend using React, Next.js, and Tailwind, and on the backend using Prisma and MongoDB.",
     icon: React.createElement(CgWorkAlt),
     date: "2024-2025",
-  },
-  {
-    title: "Software Development Intern",
-    location: "Online (India)",
-    description:
-      "Completed a two-month online internship at DeeGee Techlytics Solutions Pvt. Ltd. (01/06/2025 - 01/08/2025). Worked on requirement analysis, coordination, quality assurance, and feature enhancements for CRM software and the WhatsApp Cloud integration module. Performed end-to-end testing, reported bugs, and collaborated in an Agile environment.",
-    icon: React.createElement(FaReact),
-    date: "Jun 2025 - Aug 2025",
   }
+  
   
 ] as const;
 
