@@ -64,13 +64,14 @@ export const experiencesData = [
   },
   
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer Intern",
     location: "Subspace",
     description:
-      "I worked as a full-stack developer at Subspace, a startup that provides a platform for remote teams to collaborate and communicate. I worked on the frontend using React, Next.js, and Tailwind, and on the backend using Prisma and MongoDB.",
+      "Completed a full-stack development internship at Subspace, a startup providing a collaboration platform for remote teams. Contributed to the frontend with React, Next.js, and Tailwind, and supported backend development using Prisma and MongoDB.",
     icon: React.createElement(CgWorkAlt),
     date: "2024-2025",
   }
+  
   
   
 ] as const;
